@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+.env
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# PostgreSQL dumps or local DB files
+*.sql
+*.dump
+
+# React (if you build the frontend separately)
+build/
+dist/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Misc
+.env.*
+coverage/
