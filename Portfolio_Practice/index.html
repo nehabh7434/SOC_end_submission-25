@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h2>Hi, I'm <span>Neha</span> <br>from IIT Bombay</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="neww.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I’m Neha Bharti, a design and tech enthusiast from IIT Bombay. I specialize in UI/UX, web design,
+                        and visual content creation, with experience in student bodies like SARC and the Math
+                        Association. I'm also exploring machine learning and real-world projects like fraud detection. I
+                        love combining creativity with technology to craft impactful digital solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX & Design</span><br>Designing Webb/App Interfaces <br>Figma, Adobe Photoshop,
+                                Illustrator</li>
+                            <li><span>Web Development</span><br>Web App development <br>Python, JavaScript (Node.js)
+                            </li>
+                            <li><span>Machine Learning</span><br> ML project (Fraud detection in finacial transactions)
+                                <br> toolkit includes Python, Pandas, Scikit-learn,
+                                XGBoost, LightGBM, and NetworkX</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb'25 - Apr'25 </span><br>UI/UX Intern at reuseall</li>
+                            <li><span>May'24-Apr'25</span><br>Design Coordinator at SARC</li>
+                            <li><span>Feb'25- Apr'25</span><br>Web and Design Coordie at Mathematics association</li>
+                            <li><span>Feb'25- Dec'25</span><br>Junior Secy at Dakshana Foundation</li>
+
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015-2022</span><br>Intermediate from JNV Bulandshahr</li>
+                            <li><span>2022-2023</span><br>Couching from Dakshana Foundation</li>
+                            <li><span>2023-2027</span><br>Undergraduation from IIT Bombay</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -----services---- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam minima officiis eius
+                        reiciendis fugiat beatae repellendus impedit quia possimus tempore itaque aperiam illum, sit
+                        consequuntur! Pariatur non vel quo nostrum explicabo, laboriosam at eum soluta incidunt quaerat
+                        minus, exercitationem necessitatibus. Beatae, quibusdam cupiditate distinctio pariatur rem hic
+                        voluptas facilis saepe at tempora quis eius corrupti voluptatum maxime tenetur, aliquid deleniti
+                        error facere, </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam minima officiis eius
+                        reiciendis fugiat beatae repellendus impedit quia possimus tempore itaque aperiam illum, sit
+                        consequuntur! Pariatur non vel quo nostrum explicabo, laboriosam at eum soluta incidunt quaerat
+                        minus, exercitationem necessitatibus. Beatae, quibusdam cupiditate distinctio pariatur rem hic
+                        voluptas facilis saepe at tempora quis eius corrupti voluptatum maxime tenetur, aliquid deleniti
+                        error facere, </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam minima officiis eius
+                        reiciendis fugiat beatae repellendus impedit quia possimus tempore itaque aperiam illum, sit
+                        consequuntur! Pariatur non vel quo nostrum explicabo, laboriosam at eum soluta incidunt quaerat
+                        minus, exercitationem necessitatibus. Beatae, quibusdam cupiditate distinctio pariatur rem hic
+                        voluptas facilis saepe at tempora quis eius corrupti voluptatum maxime tenetur, aliquid deleniti
+                        error facere, </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------portfolio---- -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">Showcases</h1> <!----dummy pics--->
+            <div class="work-list">
+                <div class="work">
+                    <img src="img1.png">
+                    <div class="layer">
+                        <h3>Social App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde labore rem autem ex fuga quos
+                            amet, recusandae iste ratione repudiandae.</p>
+                    </div>
+
+
+                </div>
+                <div class="work">
+                    <img src="img1.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde labore rem autem ex fuga quos
+                            amet, recusandae iste ratione repudiandae.</p>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="img1.png">
+                    <div class="layer">
+                        <h3>Online Shopping</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde labore rem autem ex fuga quos
+                            amet, recusandae iste ratione repudiandae.</p>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    
+    <div>
+        <div class="Moments">
+            <div class="gallery-wrapper" onclick="toggleSlider()">
+                <div class="gallery-slider" id="slider">
+                    <img src="img1.png" alt="Image 1" />
+                    <img src="img1.png" alt="Image 2" />
+                    <img src="img1.png" alt="Image 3" />
+
+                    <!-- Add more images here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ------contact--- -->
+
+    <div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact ME</h1>
+                        <p>contact@example.com</p>
+                        <p>987898654</p>
+                        <div class="social-icons">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        src = "script.js";
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+        const slider = document.getElementById("slider");
+        const images = slider.querySelectorAll("img");
+        let index = 0;
+        let interval;
+        let isPaused = false;
+
+        function startSlider() {
+            interval = setInterval(() => {
+                if (!isPaused) {
+                    index = (index + 1) % images.length;
+                    slider.style.transform = `translateX(-${index * 100}%)`;
+                }
+            }, 3000); // Change every 3 seconds
+        }
+
+        function toggleSlider() {
+            isPaused = !isPaused;
+        }
+
+        startSlider();
+
+
+    </script>
+
+</body>
+
+</html>
