@@ -1,0 +1,102 @@
+/* Base styles for light mode */
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Base styles for dark mode */
+body.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+/* Make text-muted readable in dark mode */
+body.dark .text-muted {
+  color: #cccccc !important;
+}
+
+/* Card styles */
+body.dark .card {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+/* Button styles */
+body.dark .btn {
+  color: #ffffff;
+  background-color: #2a2a2a;
+  border-color: #555;
+}
+
+body.dark .btn:hover {
+  background-color: #3a3a3a;
+  border-color: #666;
+}
+
+body.dark .btn-outline-secondary {
+  border-color: #888;
+  color: #cccccc;
+}
+
+body.dark .btn-outline-secondary:hover {
+  background-color: #444;
+  color: #ffffff;
+}
+
+/* Sidebar styling */
+.sidebar {
+  transition: background-color 0.3s ease;
+}
+
+body.dark .sidebar {
+  background-color: #1a1a1a !important;
+  color: #ffffff;
+  border-right: 1px solid #333;
+}
+
+body.dark .nav-link {
+  color: #cccccc;
+}
+
+body.dark .nav-link:hover {
+  color: #ffffff;
+}
+
+/* Header style */
+.navbar-dark {
+  background-color: #121212 !important;
+}
+
+/* Input fields */
+body.dark input,
+body.dark .form-control {
+  background-color: #222 !important;
+  color: #ffffff !important;
+  border: 1px solid #444;
+}
+
+/* Search box hover/focus */
+body.dark input:focus {
+  border-color: #888 !important;
+  box-shadow: none;
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+/* Input fields in dark mode */
+body.dark input,
+body.dark .form-control {
+  background-color: #222 !important;
+  color: #ffffff !important;
+  border: 1px solid #444;
+}
+
+/* Placeholder text color in dark mode */
+body.dark input::placeholder,
+body.dark .form-control::placeholder {
+  color: #bbbbbb !important;
+}
